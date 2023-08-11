@@ -2,7 +2,9 @@
 
 -페이로드 빌드
 1. main.go 아이피 변경
-2. set GOOS=linux set GOARCH=mipsle go build .
+2. set GOOS=linux
+3. set GOARCH=mipsle
+4. go build .
 
 -봇 로드
 1. cd sploit
