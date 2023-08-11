@@ -125,7 +125,7 @@ func main() {
 		scan := bufio.NewScanner(r)
 		for scan.Scan() {
 			if os.Args[1] == "auto" {
-				go processTarget(scan.Text(), 8088)
+				go processTarget(scan.Text() + ":" + "8088")
 			} else {
 				go processTarget(scan.Text() + ":" + os.Args[1])
 			}
